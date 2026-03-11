@@ -1,0 +1,51 @@
+name: health_care
+version: 1.0.0+1
+description: A Flutter app with login, registration, and health analysis.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera for capturing images
+  camera: ^0.10.5+5
+
+  # Pick image from gallery or camera
+  image_picker: ^1.0.7
+
+  # Make HTTP requests to backend
+  http: ^1.2.1
+
+  # Ask runtime permissions
+  permission_handler: ^11.0.1
+
+  # Handle paths for files
+  path: ^1.9.0
+
+  # Get path for storing temporary files
+  path_provider: ^2.1.2
+
+  # Local storage for user data
+  shared_preferences: ^2.2.2
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/LOGO.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/LOGO.png
