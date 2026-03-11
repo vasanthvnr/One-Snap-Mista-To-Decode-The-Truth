@@ -7,7 +7,7 @@ class ApiService {
   // For emulator: use 10.0.2.2 for Android emulator
   // For physical device: use your computer's IP address
   // For deployed: use the deployed SpringBoot URL
-  static const String BASE_URL = 'https://mista-java-backend.onrender.com';
+  static const String BASE_URL = 'https://mista-backend-springboot.onrender.com';
   
   static Future<Map<String, dynamic>> analyzeImage(
       String imagePath, String category, String healthIssues) async {
